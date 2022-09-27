@@ -1,0 +1,19 @@
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 10px;
+}
+
+.Edit{ 
+    border-radius: 3px;
+   background:rgb(75, 192, 75) ; 
+}
+.Del{
+    border-radius: 3px;
+    background: rgb(212, 16, 16);
+}
+.text{
+   
+    text-decoration: line-through;
+}

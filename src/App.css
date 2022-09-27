@@ -1,0 +1,30 @@
+body{
+  background: rgb(88, 88, 252);
+}
+
+.App {
+  background:#fff;
+  text-align: center;
+  width: 500px;
+  margin: 120px auto;
+  border-radius: 15px;
+}
+
+.todos-wrapper{
+  margin-top: 25px;
+  border: 1px solid rgb(80, 80, 80) ;
+  border-radius: 3px;
+}
+.content{
+  padding: 15px 10px;
+}
+
+.todos-wrapper > div:nth-child(even) {
+  background:rgb(199, 180, 180);
+  }
+
+  .watermark {
+    text-align: center;
+    color: rgb(110, 110, 110);
+    font-size: 22px;
+  }
